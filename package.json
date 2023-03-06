@@ -1,5 +1,5 @@
 {
-  "name": "w-rpc",
+  "name": "w-worker-rpc",
   "version": "0.1.0",
   "license": "MIT",
   "description": "A simple bi-directional rpc library for javascript thread communication",
@@ -23,12 +23,12 @@
     "workers",
     "rpc"
   ],
-  "homepage": "https://github.com/moomoolive/w-rpc",
+  "homepage": "https://github.com/moomoolive/w-worker-rpc",
   "bugs": {
-    "url": "https://github.com/moomoolive/w-rpc/issues"
+    "url": "https://github.com/moomoolive/w-worker-rpc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moomoolive/w-rpc"
+    "url": "https://github.com/moomoolive/w-worker-rpc"
   }
 }
