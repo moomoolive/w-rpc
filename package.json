@@ -1,6 +1,6 @@
 {
   "name": "w-worker-rpc",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "A simple bi-directional rpc library for javascript thread communication",
   "scripts": {

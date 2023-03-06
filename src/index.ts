@@ -1,5 +1,7 @@
 import {transferData, TransferValue} from "./transfer"
 
+export type {TransferValue} from "./transfer"
+
 type RpcResponse<State extends object> = (
     (() => any)
     | ((param: any) => any)
