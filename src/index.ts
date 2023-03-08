@@ -1,6 +1,14 @@
-import {transferData, TransferValue} from "./transfer"
+export interface TransferValue<T> {
+    value: T
+    transferables: Transferable[]
+    __x_tdata__: true
+}
 
-export type {TransferValue} from "./transfer"
+export const transferData = <T>(value: T, transferables: Transferable[]) => ({
+    value, 
+    transferables,
+    __x_tdata__: true
+} as TransferValue<T>)
 
 type RpcResponse<State extends object> = (
     (() => any)

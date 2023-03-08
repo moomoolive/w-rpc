@@ -1,4 +1,8 @@
-import { transferData } from "./transfer";
+export const transferData = (value, transferables) => ({
+    value,
+    transferables,
+    __x_tdata__: true
+});
 export const OUTBOUND_MESSAGE = -1;
 export const ERROR_RESPONSE_HANDLE = "__x_rpc_error__";
 export const RESPONSE_HANDLE = "__x_rpc_response__";

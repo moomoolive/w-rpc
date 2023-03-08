@@ -1,4 +1,9 @@
-import { TransferValue } from "./transfer";
+export interface TransferValue<T> {
+    value: T;
+    transferables: Transferable[];
+    __x_tdata__: true;
+}
+export declare const transferData: <T>(value: T, transferables: Transferable[]) => TransferValue<T>;
 type RpcResponse<State extends object> = ((() => any) | ((param: any) => any) | ((param: any, state: State) => any));
 type RpcOutboundAction = ((() => any) | ((param: any) => any) | ((param: any, state: any) => any));
 type TerminalOutboundActions = {
